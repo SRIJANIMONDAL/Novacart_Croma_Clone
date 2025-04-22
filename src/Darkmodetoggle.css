@@ -1,0 +1,30 @@
+/* Default Light Mode */
+body {
+    background-color: #ffffff;
+    color: #000000; /* Dark text */
+    transition: all 0.3s ease;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1; /* Light text */
+  }
+  
+  /* For specific headings or paragraphs */
+  h1, h2, h3, h4, h5, h6, p, span {
+    transition: color 0.3s ease;
+  }
+  
+  /* Optional: Override color inside dark mode if needed */
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode h3,
+  body.dark-mode h4,
+  body.dark-mode h5,
+  body.dark-mode h6,
+  body.dark-mode p,
+  body.dark-mode span {
+    color: #e0e0e0;
+  }
+  

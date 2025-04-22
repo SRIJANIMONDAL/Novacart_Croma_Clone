@@ -1,0 +1,240 @@
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1328cc;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    background: #ff7f50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 4px;
+  }
+  
+  .dark-mode-toggle {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .dark-mode-toggle input {
+    display: none;
+  }
+  
+  .dark-mode-toggle span {
+    font-size: 18px;
+  }
+  
+  .login-link {
+    color: #fff;
+  }
+  
+
+   nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #340ebd;
+    padding: 10px;
+    color: white;
+  }
+  
+  nav a, nav button {
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav a, nav button {
+      width: 100%;
+      margin: 8px 0;
+    }
+  } */
+  /* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .logo a {
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .welcome {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .button {
+    background-color: #f90;
+    border: none;
+    padding: 6px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsive for small screens */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #1607b9;
+      padding: 15px 0;
+      display: none;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links a, .button {
+      padding: 10px 0;
+    }
+  }
+  
+  /* Notification Styles */
+.notification-wrapper {
+  position: relative;
+  margin-left: 15px;
+}
+
+.notification-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.notif-dot {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  background: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.notification-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: white;
+  color: #333;
+  width: 250px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 999;
+}
+
+.notification-item {
+  padding: 10px 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+.logo img {
+  display: block;
+  height: 120px;
+}
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.nova-logo {
+  height: 40px; /* adjust as needed */
+  width: auto;
+  object-fit: contain;
+}
+
+.nova-text {
+  font-size: 3.0rem;
+  font-weight: bold;
+  color: #f0f3f6; /* or your brand color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dark-toggle {
+  margin-left: 1rem;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+.dark-toggle:hover {
+  background-color: #f0f0f0;
+}
