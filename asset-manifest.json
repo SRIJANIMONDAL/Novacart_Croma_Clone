@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Novacart_Croma_Clone/static/css/main.a59d5066.css",
+    "main.js": "/Novacart_Croma_Clone/static/js/main.470e73bd.js",
+    "static/js/239.327cecca.chunk.js": "/Novacart_Croma_Clone/static/js/239.327cecca.chunk.js",
+    "static/js/977.6a8bd759.chunk.js": "/Novacart_Croma_Clone/static/js/977.6a8bd759.chunk.js",
+    "static/js/732.dd646c10.chunk.js": "/Novacart_Croma_Clone/static/js/732.dd646c10.chunk.js",
+    "index.html": "/Novacart_Croma_Clone/index.html",
+    "main.a59d5066.css.map": "/Novacart_Croma_Clone/static/css/main.a59d5066.css.map",
+    "main.470e73bd.js.map": "/Novacart_Croma_Clone/static/js/main.470e73bd.js.map",
+    "239.327cecca.chunk.js.map": "/Novacart_Croma_Clone/static/js/239.327cecca.chunk.js.map",
+    "977.6a8bd759.chunk.js.map": "/Novacart_Croma_Clone/static/js/977.6a8bd759.chunk.js.map",
+    "732.dd646c10.chunk.js.map": "/Novacart_Croma_Clone/static/js/732.dd646c10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a59d5066.css",
+    "static/js/main.470e73bd.js"
+  ]
+}
